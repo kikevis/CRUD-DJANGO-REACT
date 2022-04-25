@@ -14,9 +14,9 @@ import Form from '../../components/formularios/peliculas/Form';
 
 export default function EditarPelicula() {
   return (
-    <Page title="Crud Django Rest">
+    <Page title="Editar Pelicula">
       <Container sx={{ alignItems: 'center' }}>
-          <h1>Editar Pelicula</h1>
+          <h1>Editar Película</h1>
           <Form />
       </Container>
     </Page>

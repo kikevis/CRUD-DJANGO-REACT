@@ -12,17 +12,17 @@ const navConfig = [
     icon: getIcon('eva:pie-chart-2-fill'),
   }, */
   {
-    title: 'Agregar Pelicula',
+    title: 'Agregar Película',
     path: '/dashboard/agregarpelicula',
     icon: getIcon('eva:file-add-outline'),
   },
   {
-    title: 'Editar Pelicula',
+    title: 'Editar Película',
     path: '/dashboard/editarpelicula',
-    icon: getIcon('eva:file-add-outline'),
+    icon: getIcon('eva:edit-2-outline'),
   },
   {
-    title: 'Peliculas',
+    title: 'Películas',
     path: '/dashboard/products',
     icon: getIcon('eva:grid-outline'),
     /* shopping-bag-fill */

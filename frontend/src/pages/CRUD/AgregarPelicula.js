@@ -14,9 +14,9 @@ import Form from '../../components/formularios/peliculas/Form';
 
 export default function AgregarPelicula() {
   return (
-    <Page title="Crud Django Rest">
+    <Page title="Agregar Pelicula">
       <Container sx={{ alignItems: 'center' }}>
-          <h1>Agregar Pelicula</h1>
+          <h1>Agregar Película</h1>
           <Form />
       </Container>
     </Page>
