@@ -13,6 +13,7 @@ import DashboardApp from './pages/DashboardApp';
 import AgregarPelicula from './pages/CRUD/AgregarPelicula';
 import EditarPelicula from './pages/CRUD/EditarPelicula';
 
+
 // ----------------------------------------------------------------------
 
 export default function Router() {
