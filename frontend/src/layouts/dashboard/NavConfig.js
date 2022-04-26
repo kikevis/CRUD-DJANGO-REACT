@@ -22,7 +22,7 @@ const navConfig = [
     icon: getIcon('eva:edit-2-outline'),
   },
   {
-    title: 'Películas',
+    title: 'Listar Películas',
     path: '/dashboard/products',
     icon: getIcon('eva:grid-outline'),
     /* shopping-bag-fill */

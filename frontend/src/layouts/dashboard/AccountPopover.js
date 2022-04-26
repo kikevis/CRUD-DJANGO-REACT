@@ -12,19 +12,19 @@ import account from '../../_mock/account';
 
 const MENU_OPTIONS = [
   {
-    label: 'Home',
-    icon: 'eva:home-fill',
+    label: 'Agregar Películas',
+    icon: 'eva:file-add-outline',
     linkTo: '/',
   },
  {
-    label: 'Profile',
-    icon: 'eva:person-fill',
-    linkTo: '#',
+    label: 'Editar Películas',
+    icon: 'eva:edit-2-outline',
+    linkTo: '/dashboard/editarpelicula',
   },
   {
-    label: 'Settings',
-    icon: 'eva:settings-2-fill',
-    linkTo: '#',
+    label: 'Listar Películas',
+    icon: 'eva:grid-outline',
+    linkTo: '/dashboard/products',
   },
 ];
 
@@ -102,7 +102,7 @@ export default function AccountPopover() {
         <Divider sx={{ borderStyle: 'dashed' }} />
 
         <MenuItem onClick={handleClose} sx={{ m: 1 }}>
-          Logout
+          Cerrar
         </MenuItem>
       </MenuPopover>
     </>

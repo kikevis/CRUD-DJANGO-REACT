@@ -3,7 +3,8 @@ import { Link as RouterLink } from 'react-router-dom';
 import { styled } from '@mui/material/styles';
 import { Container } from '@mui/material';
 // components
-import BasicText from './Text/BasicText';
+import BasicTextTitle from './Text/BasicTextTitle';
+import BasicTextGenre from './Text/BasicTextGenre';
 import MultilineText from './Text/MultilineText';
 import UploadButton from './Button/UploadButton';
 import AddButton from './Button/AddButton';
@@ -13,8 +14,9 @@ import AddButton from './Button/AddButton';
 export default function Form() {
   return (
       <Container>
-          <BasicText />
-          <MultilineText />
+          <BasicTextTitle />
+          <BasicTextGenre />
+          {/* <MultilineText /> */}
           <UploadButton />
           <AddButton />
       </Container>

@@ -4,8 +4,8 @@ import { styled } from '@mui/material/styles';
 import { Container } from '@mui/material';
 // components
 import Page from '../../components/Page';
-import BasicText from '../../components/formularios/peliculas/Text/BasicText';
-import MultilineText from '../../components/formularios/peliculas/Text/MultilineText';
+import BasicTextTitle from '../../components/formularios/peliculas/Text/BasicTextTitle';
+import BasicTextGenre from '../../components/formularios/peliculas/Text/BasicTextGenre';
 import UploadButton from '../../components/formularios/peliculas/Button/UploadButton';
 import AddButton from '../../components/formularios/peliculas/Button/AddButton';
 import Form from '../../components/formularios/peliculas/Form';

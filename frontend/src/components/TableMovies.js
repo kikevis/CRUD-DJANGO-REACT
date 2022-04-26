@@ -7,15 +7,15 @@ import TableHead from '@mui/material/TableHead';
 import TableRow from '@mui/material/TableRow';
 import Paper from '@mui/material/Paper';
 
-function createData(id, title, description, imagen) {
-  return { id, title, description, imagen };
+function createData(id, title, genre, imagen) {
+  return { id, title, genre, imagen };
 }
 
 const rows = [
-  createData(1, 'Título', 'Descripción', 'imagen.png'),
-  createData(2, 'Título', 'Descripción', 'imagen.png'),
-  createData(3, 'Título', 'Descripción', 'imagen.png'),
-  createData(4, 'Título', 'Descripción', 'imagen.png'),
+  createData(1, 'Título', 'Género', 'imagen.png'),
+  createData(2, 'Título', 'Género', 'imagen.png'),
+  createData(3, 'Título', 'Género', 'imagen.png'),
+  createData(4, 'Título', 'Género', 'imagen.png'),
 ];
 
 export default function BasicTable() {
@@ -26,7 +26,7 @@ export default function BasicTable() {
           <TableRow>
             <TableCell /* align="center" */>Id</TableCell>
             <TableCell /* align="center" */>Título</TableCell>
-            <TableCell /* align="center" */>Descripción</TableCell>
+            <TableCell /* align="center" */>Género</TableCell>
             <TableCell /* align="center" */>Imagen</TableCell>
           </TableRow>
         </TableHead>
@@ -38,7 +38,7 @@ export default function BasicTable() {
             >
               <TableCell component="th" scope="row"  /* align="center" */>{row.id}</TableCell>
               <TableCell /* align="center" */>{row.title}</TableCell>
-              <TableCell /* align="center" */>{row.description}</TableCell>
+              <TableCell /* align="center" */>{row.genre}</TableCell>
               <TableCell /* align="center" */>{row.imagen}</TableCell>
             </TableRow>
           ))}
