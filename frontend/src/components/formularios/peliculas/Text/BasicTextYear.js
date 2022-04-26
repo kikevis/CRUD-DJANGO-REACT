@@ -16,10 +16,10 @@ export default function BasicTextFields() {
     >
       <TextField
         id="outlined-basic"
-        label="Título"
+        label="Año"
         variant="outlined"
-        placeholder="Título"
-        type="string"
+        placeholder="Año"
+        type="number"
       />
     </Box>
   );

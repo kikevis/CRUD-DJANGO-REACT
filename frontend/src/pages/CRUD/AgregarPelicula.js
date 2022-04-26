@@ -6,6 +6,7 @@ import { Container } from '@mui/material';
 import Page from '../../components/Page';
 import BasicTextTitle from '../../components/formularios/peliculas/Text/BasicTextTitle';
 import BasicTextGenre from '../../components/formularios/peliculas/Text/BasicTextGenre';
+import BasicTextYear from '../../components/formularios/peliculas/Text/BasicTextYear';
 import UploadButton from '../../components/formularios/peliculas/Button/UploadButton';
 import AddButton from '../../components/formularios/peliculas/Button/AddButton';
 import Form from '../../components/formularios/peliculas/Form';

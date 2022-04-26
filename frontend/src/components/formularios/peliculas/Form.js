@@ -5,6 +5,7 @@ import { Container } from '@mui/material';
 // components
 import BasicTextTitle from './Text/BasicTextTitle';
 import BasicTextGenre from './Text/BasicTextGenre';
+import BasicTextYear from './Text/BasicTextYear';
 import MultilineText from './Text/MultilineText';
 import UploadButton from './Button/UploadButton';
 import AddButton from './Button/AddButton';
@@ -16,8 +17,9 @@ export default function Form() {
       <Container>
           <BasicTextTitle />
           <BasicTextGenre />
+          <BasicTextYear />
           {/* <MultilineText /> */}
-          <UploadButton />
+          {/* <UploadButton /> */}
           <AddButton />
       </Container>
   );
